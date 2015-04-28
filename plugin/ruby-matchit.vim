@@ -46,7 +46,7 @@ function! s:Ruby_Matchit()
 		break
 	    endif
 	endwhile
-    elseif curr_word =~ '\<\(if\|unless\|elsif\|else\|case\|when\|while\|'
+    elseif curr_word =~ '\<\(do\|if\|unless\|elsif\|else\|case\|when\|while\|'
 		\.'until\|def\|\|module\|class\)\>'
 	while 1
 	    normal j
